@@ -5,9 +5,9 @@ Tested on Python 3.12. Needs Python 3.11+.
 ## Run it
 ```bash
 pip install -r requirements.txt
-streamlit run app.py          # interactive dashboard (opens at http://localhost:8501)
-python make_report.py         # rewrites dashboard.pdf / dashboard.png (static copy of the Overview page)
-python verify_numbers.py      # re-computes the headline numbers in SQL and compares (all should PASS)
+python -m streamlit run app.py   # interactive dashboard (opens at http://localhost:8501)
+python make_report.py            # rewrites dashboard.pdf / dashboard.png (static copy of the Overview page)
+python verify_numbers.py         # re-computes the headline numbers in SQL and compares (all should PASS)
 ```
 The three CSVs are in `data/` (students.csv, events.csv, campaigns.csv, unchanged).
 

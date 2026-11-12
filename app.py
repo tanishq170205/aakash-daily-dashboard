@@ -1,4 +1,4 @@
-"""Aakash Daily - Monday view.  Run:  streamlit run app.py"""
+"""Aakash Daily - Monday view.  Run:  python -m streamlit run app.py"""
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
